@@ -1,6 +1,6 @@
 # Functional RL in ClojureScript
 
-I am using [Functional RL in Scala](https://github.com/sritchie/scala-rl) as a template to implement reinforcement learning in [ClojureScript](https://github.com/clojure/clojurescript).  There is nothing here now, but I will be implementing as I go.
+I am using [Functional RL in Scala](https://github.com/sritchie/scala-rl) as a template to implement reinforcement learning in [Clojure](https://github.com/clojure/clojure).  There is nothing here now, but I will be implementing as I go.
 
 ## LICENSE
 
