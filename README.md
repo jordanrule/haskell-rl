@@ -1,6 +1,8 @@
 # Functional RL in Haskell
 
-I am using [Functional RL in Scala](https://github.com/sritchie/scala-rl) as a template to implement reinforcement learning in [Haskell](https://github.com/haskell).  There is nothing here now, but I will be implementing as I go.
+I am implementing each chapter of [Reinforcement Learning - An Introduction](https://github.com/ShangtongZhang/reinforcement-learning-an-introduction) in [Haskell](https://github.com/haskell).  This is slow going, but progress will come steadily.
+
+Inspiration is care of [Functional RL in Scala](https://github.com/sritchie/scala-rl).
 
 ## LICENSE
 
