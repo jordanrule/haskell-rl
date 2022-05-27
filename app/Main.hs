@@ -1,5 +1,7 @@
-module Main where
+module Main
+    ( main
+    ) where
 
-import C1
+import Regression
 
-main = C1.main
+main = Regression.run

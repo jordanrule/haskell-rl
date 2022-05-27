@@ -3,11 +3,45 @@
 # For more information, please see the documentation at:
 #   https://docs.haskellstack.org/en/stable/lock_files
 
-packages: []
+packages:
+- completed:
+    hackage: tensorflow-0.2.0.1@sha256:adebe983e70c10ed2a27defeeb11fae6071874e898a1100e39f6409ff195b9ca,3120
+    pantry-tree:
+      size: 1153
+      sha256: 4f7bcde12e5e0358a862f4961471696892bf76281b3d574d2fb523dc7a87a1d3
+  original:
+    hackage: tensorflow-0.2.0.1
+- completed:
+    hackage: tensorflow-proto-0.2.0.1@sha256:843eb75f1b4eff7892208f1e800cd7dd3f9e01b1526b8a2855f6f702d87aef43,12225
+    pantry-tree:
+      size: 6163
+      sha256: 0e900ae4b39e31ad758a60d718c9b1ce5d4882af659936c23736c6b324bb70df
+  original:
+    hackage: tensorflow-proto-0.2.0.1
+- completed:
+    hackage: tensorflow-ops-0.2.0.1@sha256:a696b919db742eb49b65474e453879bf74437346834b8bf828902eeb9aa69efb,8662
+    pantry-tree:
+      size: 1535
+      sha256: 3ea440d9f4ca6642aa5fa325d7737101c7fac4fd5eb0763f97c6bf719d10e932
+  original:
+    hackage: tensorflow-ops-0.2.0.1
+- completed:
+    hackage: tensorflow-core-ops-0.2.0.1@sha256:8f521d0aaf222a2d4b6932d38f8312728b24616fad9a7bf2e925cdc3579a40d1,1286
+    pantry-tree:
+      size: 336
+      sha256: 641c08bfab584ab71357579e184e423d34803e573662f3bea5adf8df83d37001
+  original:
+    hackage: tensorflow-core-ops-0.2.0.1
+- completed:
+    hackage: tensorflow-opgen-0.2.0.1@sha256:cd0b7041380b18bc15f93b40745e4857fc06ca7ec8f80535d22f7f6d7f11e24c,1140
+    pantry-tree:
+      size: 300
+      sha256: d1a3331388908b4f666ef45eec669be6aec3856ef857258518b088dbf2ea6b0d
+  original:
+    hackage: tensorflow-opgen-0.2.0.1
 snapshots:
 - completed:
-    size: 618506
-    url: https://raw.githubusercontent.com/commercialhaskell/stackage-snapshots/master/lts/19/8.yaml
-    sha256: f1c4aca9b9b81afbb9db55571acb0690cdc01ac97a178234de281f9dc075e95e
-  original:
-    url: https://raw.githubusercontent.com/commercialhaskell/stackage-snapshots/master/lts/19/8.yaml
+    size: 524996
+    url: https://raw.githubusercontent.com/commercialhaskell/stackage-snapshots/master/lts/14/27.yaml
+    sha256: 7ea31a280c56bf36ff591a7397cc384d0dff622e7f9e4225b47d8980f019a0f0
+  original: lts-14.27

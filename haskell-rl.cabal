@@ -6,9 +6,9 @@ cabal-version: 1.12
 
 name:           haskell-rl
 version:        0.1.0.0
-description:    Please see the README on GitHub at <https://github.com/githubuser/haskell-rl#readme>
-homepage:       https://github.com/githubuser/haskell-rl#readme
-bug-reports:    https://github.com/githubuser/haskell-rl/issues
+description:    Please see the README on GitHub at <https://github.com/jordanrule/haskell-rl#readme>
+homepage:       https://github.com/jordanrule/haskell-rl#readme
+bug-reports:    https://github.com/jordanrule/haskell-rl/issues
 author:         Jordan Rule
 maintainer:     jordanrule@gmail.com
 copyright:      2022 Jordan Rule
@@ -17,21 +17,27 @@ license-file:   LICENSE
 build-type:     Simple
 extra-source-files:
     README.md
-    ChangeLog.md
 
 source-repository head
   type: git
-  location: https://github.com/githubuser/haskell-rl
+  location: https://github.com/jordanrule/haskell-rl
 
 library
   exposed-modules:
       C1
+      Regression
   other-modules:
       Paths_haskell_rl
   hs-source-dirs:
       src
   build-depends:
-      base >=4.7 && <5
+      HUnit
+    , base
+    , proto-lens
+    , random
+    , tensorflow
+    , tensorflow-core-ops
+    , tensorflow-ops
     , time
   default-language: Haskell2010
 
@@ -43,8 +49,14 @@ executable haskell-rl-exe
       app
   ghc-options: -threaded -rtsopts -with-rtsopts=-N
   build-depends:
-      base >=4.7 && <5
+      HUnit
+    , base
     , haskell-rl
+    , proto-lens
+    , random
+    , tensorflow
+    , tensorflow-core-ops
+    , tensorflow-ops
     , time
   default-language: Haskell2010
 
@@ -57,7 +69,13 @@ test-suite haskell-rl-test
       test
   ghc-options: -threaded -rtsopts -with-rtsopts=-N
   build-depends:
-      base >=4.7 && <5
+      HUnit
+    , base
     , haskell-rl
+    , proto-lens
+    , random
+    , tensorflow
+    , tensorflow-core-ops
+    , tensorflow-ops
     , time
   default-language: Haskell2010
