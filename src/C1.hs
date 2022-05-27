@@ -1,3 +1,7 @@
+module C1
+    ( main
+    ) where
+
 -- Board implementation care of Nicholas Paul
 -- TODO: RL policy implementation
 
