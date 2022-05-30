@@ -1,8 +1,8 @@
 # Functional Reinforcement Learning in Haskell
 
-I am implementing each chapter of [Reinforcement Learning: An Introduction](http://incompleteideas.net/book/the-book-2nd.html) in [Haskell](https://www.haskell.org/).  The first iteration draws upon the work of [Monday Morning Haskell](https://mmhaskell.com/machine-learning) utilizing [Tensorflow](https://github.com/tensorflow/haskell) and a second iteration will implement in a purely functional manner.
+I am implementing each chapter of [Reinforcement Learning: An Introduction](http://incompleteideas.net/book/the-book-2nd.html) in [Haskell](https://www.haskell.org/).
 
-Inspiration is care of [Functional RL in Scala](https://github.com/sritchie/scala-rl).
+Inspiration is care of [Reinforcement Learning in Scala](https://github.com/sritchie/scala-rl), with implementation guidance from [Haskell Open Gym](https://github.com/jhb563/OpenGymHs).
 
 ## Getting Started
 
