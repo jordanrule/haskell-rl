@@ -1,9 +1,2 @@
 packages:
 - .
-extra-deps:
-- tensorflow-0.2.0.1
-- tensorflow-proto-0.2.0.1
-- tensorflow-ops-0.2.0.1
-- tensorflow-core-ops-0.2.0.1
-- tensorflow-opgen-0.2.0.1
-resolver: lts-14.27
