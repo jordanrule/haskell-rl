@@ -22,18 +22,13 @@ dependencies:
 - base
 - time
 - random
-- HUnit
-- tensorflow
-- tensorflow-ops
-- tensorflow-core-ops
-- proto-lens
 
 library:
   source-dirs: src
 
 executables:
-  haskell-rl-exe:
-    main:                Main.hs
+  chapter-one:
+    main:                C1.hs
     source-dirs:         app
     ghc-options:
     - -threaded

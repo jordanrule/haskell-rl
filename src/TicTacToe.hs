@@ -1,5 +1,5 @@
-module C1
-    ( main
+module TicTacToe
+    ( run
     ) where
 
 -- Board implementation care of Nicholas Paul
@@ -11,7 +11,7 @@ import Data.Time.Clock.POSIX
 
 -- Main function. We will simply call our gameLoop with
 --   an empty board
-main = do
+run = do
   putStrLn $ take 20 $ repeat '\n'
   putStrLn "\nWelcome to tic-tac-toe!\n"
   putStrLn "To enter a move, type 'LN' where L is an uppercase letter signifying the column name and N is a number 0-9 signifying the row number.\n"
@@ -27,7 +27,7 @@ main = do
     return ()
   else do
     putStrLn "Invalid input. Please input a '1' or '2'"
-    main
+    run
 
 
 -- A board is a list of strings
@@ -52,7 +52,7 @@ restart = do
   playAgain <- getLine
   if playAgain == "y" then do
     putStrLn $ take 20 $ repeat '\n'
-    main
+    run
   else if playAgain == "n" then
     return ()
   else do
