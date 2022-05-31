@@ -8,5 +8,5 @@ Inspiration is care of [Reinforcement Learning in Scala](https://github.com/srit
 
 ```
 stack build
-stack exec haskell-rl-exe
+stack exec chapter-one
 ```
